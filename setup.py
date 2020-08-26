@@ -8,7 +8,7 @@ setup(name='querycat',
       author_email='development@aroundtheglobe.nl',
       url='https://github.com/AroundtheGlobe/querycat',
       packages=find_packages(),
-      install_requires=['transformers','scikit-learn','umap-learn','spacy>=2.2.0,<2.3.0','pyfpgrowth'],
+      install_requires=['transformers','scikit-learn','umap-learn','spacy','pyfpgrowth'],
       dependency_links=[
 
       ]
