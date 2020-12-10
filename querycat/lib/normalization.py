@@ -18,7 +18,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
 
-stopword_list = nltk.corpus.stopwords.words('english')
+stopword_list = nltk.corpus.stopwords.words('dutch')
 
 wnl = WordNetLemmatizer()
 html_parser = HTMLParser()
@@ -47,8 +47,8 @@ def expand_contractions(text, contraction_mapping):
 
 
 from nltk.corpus import wordnet as wn
-import en_core_web_sm
-nlp = en_core_web_sm.load()
+import nl_core_web_sm
+nlp = nl_core_web_sm.load()
 
 # Annotate text tokens with POS tags
 def pos_tag_text(text):
