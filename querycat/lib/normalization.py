@@ -47,8 +47,8 @@ def expand_contractions(text, contraction_mapping):
 
 
 from nltk.corpus import wordnet as wn
-import nl_core_web_sm
-nlp = nl_core_web_sm.load()
+import spacy
+nlp = spacy.load('nl_core_news_sm')
 
 # Annotate text tokens with POS tags
 def pos_tag_text(text):
